@@ -21,6 +21,10 @@ shinyUI(fluidPage(
             sliderInput('slider', label = 'Choose node opacity',
                 min = 0, max = 1, step = 0.01, value = 0.5
             )
+            ,sliderInput('value', label = 'Value check',
+                          min = 0.5, max = 10, step = 0.1, value = 1
+            )
+            
     ),
 
     # Show network graph
